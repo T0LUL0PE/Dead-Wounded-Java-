@@ -42,5 +42,5 @@ h = Character.getNumericValue(number.charAt(3));
 int i[]= new int[4];
 i[0] = e; i[1] = f; i[2] = g; i[3] = h;
 return i;
-}} 
+}}
 }
