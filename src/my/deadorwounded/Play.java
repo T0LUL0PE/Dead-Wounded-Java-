@@ -46,7 +46,7 @@ y = Character.getNumericValue(o.charAt(3));
 z= new int[4];
 z[0] = v; z[1] = w; z[2] = x; z[3] = y;
 //loop to guess until correct
-while(dead<4){
+while(dead<=4){
     
 for(int s:j){
      if(s==j[0]&&s==z[0]){
@@ -68,7 +68,8 @@ if(s==j[3]&&s==z[3]){
 }}
 //clues
  System.out.println("....."+dead+" dead "+wounded+" wounded.....");
- //checl if user's input matches or guess exhausted
+ guesses_left--;
+ //check if user's input matches or guess exhausted
 if(dead==4||guesses_left==0){
      if(dead==4){
 System.out.println("YOU WIN!!");}
@@ -78,7 +79,6 @@ System.out.println("YOU LOSE(..guess exhausted)");}
 System.out.println("YOU WIN!!");}
      break;         
 }else{
- guesses_left--;
 System.out.println("Your Call:"+"           Guesses Left:"+guesses_left);
 dead = 0;
 wounded = 0;
