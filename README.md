@@ -5,5 +5,5 @@ You are given a specific number of guesses allowed during which the clues would 
 
 Clue Format: ( X Dead Y Wounded )
 -If a digit in the guess entered is in the same postion as in the (R), That digit is said to be "Dead"
--If a digit in the guess enetered is the same as one of the digits but not in the same position as in (R)..The digit is said to be "Wounded".
+-If a digit in the guess entered is the same as one of the digits but not in the same position as in (R)..The digit is said to be "Wounded".
 For you to win, you basically have to get "4 Dead 0 Wounded" before the number of guesses allowed are exhausted.
